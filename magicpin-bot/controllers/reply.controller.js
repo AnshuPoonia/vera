@@ -113,7 +113,6 @@ const reply = async (req, res) => {
       : null;
 
     const merchant = merchantContext?.payload ?? null;
-    console.log(merchant.identity.name);
     console.log("merchantContext:");
     console.log(merchantContext);
 
